@@ -6,7 +6,7 @@ The first stage of initialising the cluster is to launch the master node. The ma
 Task
 The command below will initialise the cluster with a known token to simplify the following steps.
 
-`kubaadm init  --kubernetes-version $(kubeadm version -o short)`{{execute}}
+`kubeadm init  --kubernetes-version $(kubeadm version -o short)`{{execute}}
 
 
 i`sudo cp /etc/kubernetes/admin.conf $HOME/`{{execute}}
